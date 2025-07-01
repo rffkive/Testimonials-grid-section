@@ -138,5 +138,34 @@ main {
       z-index: 2;
   }
 
+  footer {
+    padding: 1rem;
+    background-color: hsl(214, 17%, 92%);
+  }
+
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
+
+    @media (max-width: 768px) {
+        main {
+          padding: 1.5rem 1rem;
+        }
+        
+        .container {
+          grid-template-columns: 1fr;
+          grid-template-areas: 
+            "first"
+            "second"
+            "third"
+            "fourth"
+            "fifth";
+        }
+        
+        .first, .second, .third, .fourth, .fifth {
+          padding: 1.5rem;
+        }
+        
+        .title {
+          font-size: 1.1rem;
+        }
+      }
