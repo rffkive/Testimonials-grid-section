@@ -37,6 +37,7 @@ main {
     "third fourth fourth fifth";
 }
 
+
 .first, .second, .third, .fourth, .fifth {
     background: white;
     padding: 2rem;
@@ -44,7 +45,20 @@ main {
     box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
     position: relative;
     overflow: hidden;
+    transition: all 0.3s ease;
   }
+
+  .first:hover,
+.second:hover,
+.third:hover,
+.fourth:hover,
+.fifth:hover {
+  background: #f3f4f6; 
+  transform: scale(1.02); 
+  transition: all 0.3s ease; 
+}
+
+
 /* Grid positioning */
 .first {
     grid-area: first;
