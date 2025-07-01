@@ -89,6 +89,14 @@ main {
     color: hsl(219, 29%, 14%);
   }
 
+  .image {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    margin-right: 1rem;
+    flex-shrink: 0;
+  }
 
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
