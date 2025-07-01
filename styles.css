@@ -53,7 +53,6 @@ main {
 .third:hover,
 .fourth:hover,
 .fifth:hover {
-  background: #f3f4f6; 
   transform: scale(1.02); 
   transition: all 0.3s ease; 
 }
