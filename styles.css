@@ -121,5 +121,22 @@ main {
     opacity: 0.5;
   }
 
+  .caption {
+    font-size: 1.25rem;
+      font-weight: 600;
+      line-height: 1.2;
+      margin-bottom: 1rem;
+      position: relative;
+      z-index: 2;
+  }
+
+  .description {
+    font-size: 13px;
+      line-height: 1.2;
+    opacity: 0.7;
+      position: relative;
+      z-index: 2;
+  }
+
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
